@@ -1,0 +1,15 @@
+pages\BrandPage.class
+pages\SignupLoginPage.class
+pages\CartPage.class
+pages\HomePage.class
+AutomationExerciseWebsiteProject.class
+pages\ContactUsPage.class
+pages\SignupPage.class
+pages\PaymentPage.class
+selenuim\SelenuimFramework.class
+pages\TestCasesPage.class
+pages\CategoryPage.class
+pages\CheckoutPage.class
+pages\OrderPlacedPage.class
+pages\FirstProductPage.class
+pages\AllProductsPage.class

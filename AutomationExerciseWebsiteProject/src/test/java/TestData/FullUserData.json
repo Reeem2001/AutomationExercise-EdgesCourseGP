@@ -1,0 +1,27 @@
+[
+    {
+    "title": "Mr.",
+    "name": "John Doe",
+    "email": "johndoe7513@gmail.com",
+    "password": "SecurePass123!",
+    "dateOfBirth": "1990-05-15",
+    "firstName": "John",
+    "lastName": "Doe",
+    "address": "123 Main Street",
+    "address2": "Apartment 4B",
+    "company": "Tech Solutions Ltd.",
+    "country": "United States",
+    "state": "California",
+    "city": "Los Angeles",
+    "zipcode": "90001",
+    "mobileNumber": "+1-555-123-4567",
+    "comments": "Leave at my door",
+    "cardName": "John Doe",
+    "cardNumber": "4111111111111111",
+    "cvc": "123",
+    "expMonth": "12",
+    "expYear": "2027"    
+        
+  }
+
+]

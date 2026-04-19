@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="620.613" tests="32" errors="0" skipped="2" failures="6">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\D\Edges For Training\Project-1\AutomationExerciseWebsiteProject\target\test-classes;D:\D\Edges For Training\Project-1\AutomationExerciseWebsiteProject\target\classes;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\Reem\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\Reem\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\Reem\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\Reem\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Reem\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Reem\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Reem\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\Reem\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\Reem\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\Reem\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\Reem\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\Reem\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\Reem\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\Reem\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\Reem\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\Reem\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\Reem\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\Reem\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Users\Reem\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Reem\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Reem\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Reem\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Reem\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\Reem\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\Reem\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\Reem\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\Reem\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\Reem\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\Programs\Apache NetBeans\jdk\bin"/>
+    <property name="sun.java.command" value="C:\Users\Reem\AppData\Local\Temp\surefire16772148327375830776\surefirebooter-20251209124012210_3.jar C:\Users\Reem\AppData\Local\Temp\surefire16772148327375830776 2025-12-09T12-40-12_026-jvmRun1 surefire-20251209124012210_1tmp surefire_0-20251209124012210_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\D\Edges For Training\Project-1\AutomationExerciseWebsiteProject\target\test-classes;D:\D\Edges For Training\Project-1\AutomationExerciseWebsiteProject\target\classes;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\Reem\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\Reem\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\Reem\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\Reem\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Reem\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Reem\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Reem\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\Reem\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\Reem\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\Reem\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\Reem\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\Reem\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\Reem\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\Reem\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\Reem\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\Reem\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\Reem\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\Reem\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\Reem\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Users\Reem\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Reem\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Reem\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Reem\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Reem\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\Reem\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\Reem\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\Reem\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\Reem\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\Reem\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Reem"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="D:\Programs\Apache NetBeans\jdk"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\D\Edges For Training\Project-1\AutomationExerciseWebsiteProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Reem\AppData\Local\Temp\surefire16772148327375830776\surefirebooter-20251209124012210_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.1+9"/>
+    <property name="user.name" value="Reem"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu24.30+11-CA"/>
+    <property name="maven.ext.class.path" value="D:\Programs\Apache NetBeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\Reem\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Reem\AppData\Local\Temp\"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="user.dir" value="D:\D\Edges For Training\Project-1\AutomationExerciseWebsiteProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\Programs\Apache NetBeans\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Programs\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;D:\Programs\Node.js\;C:\ProgramData\chocolatey\bin;D:\Programs\Java\jdk-24\bin;D:\Programs\Git\cmd;D:\Programs\allure-2.35.1\allure-2.35.1\bin;D:\Programs\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;D:\Programs\Node.js\;C:\ProgramData\chocolatey\bin;D:\Programs\Java\jdk-24\bin;D:\Programs\Git\cmd;C:\Users\Reem\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Reem\AppData\Local\Programs\Python\Python311\;C:\Users\Reem\AppData\Local\Microsoft\WindowsApps;D:\Programs\Microsoft VS Code\bin;C:\Users\Reem\AppData\Roaming\Python\Python313\Scripts;D:\Programs\mysys2\mingw64\bin;C:\Users\Reem\AppData\Local\GitHubDesktop\bin;C:\Users\Reem\AppData\Roaming\npm;D:\Programs\Node.js\;D:\Programs\cursor\resources\app\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="24.0.1+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="ViewAndCartBrandProducts_TC19" classname="TestCases.AllProductsPageTest" time="12.537">
+    <system-out><![CDATA[Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Clicked element: By.cssSelector: a[href="/products"]
+Scrolled to element: By.cssSelector: a[href="/brand_products/Biba"]
+Clicked element: By.cssSelector: a[href="/brand_products/Polo"]
+Got text from element By.cssSelector: div.features_items h2.title: BRAND - POLO PRODUCTS
+Scrolled to element: By.cssSelector: a[href="/brand_products/Biba"]
+Clicked element: By.cssSelector: a[href="/brand_products/H&M"]
+Got text from element By.cssSelector: div.features_items h2.title: BRAND - H&M PRODUCTS
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Dec 09, 2025 12:40:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="searchProduct_TC9[Blue Top](1)" classname="TestCases.AllProductsPageTest" time="9.969">
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Clicked element: By.cssSelector: a[href="/products"]
+Got text from element By.cssSelector: h2.title: ALL PRODUCTS
+Sent keys to element: By.cssSelector: input#search_product | Value: Blue Top
+Clicked element: By.cssSelector: button#submit_search
+Got text from element By.cssSelector: h2.title: SEARCHED PRODUCTS
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:40:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="searchProduct_TC9[Winter Top](2)" classname="TestCases.AllProductsPageTest" time="5.482">
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Clicked element: By.cssSelector: a[href="/products"]
+Got text from element By.cssSelector: h2.title: ALL PRODUCTS
+Sent keys to element: By.cssSelector: input#search_product | Value: Winter Top
+Clicked element: By.cssSelector: button#submit_search
+Got text from element By.cssSelector: h2.title: SEARCHED PRODUCTS
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:41:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="searchProduct_TC9[Summer White Top](3)" classname="TestCases.AllProductsPageTest" time="7.631">
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Clicked element: By.cssSelector: a[href="/products"]
+Got text from element By.cssSelector: h2.title: ALL PRODUCTS
+Sent keys to element: By.cssSelector: input#search_product | Value: Summer White Top
+Clicked element: By.cssSelector: button#submit_search
+Got text from element By.cssSelector: h2.title: SEARCHED PRODUCTS
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:41:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="AddToCartFromRecommendedItems_TC22" classname="TestCases.CartPageTest" time="4.052">
+    <system-out><![CDATA[Browser closed.
+Number of registered users loaded: 1
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Scrolled to element: By.cssSelector: div.recommended_items
+Got text from element By.cssSelector: div.recommended_items h2: RECOMMENDED ITEMS
+Scrolled to element: By.cssSelector: div.single-widget h2
+Clicked element: By.cssSelector: div.recommended_items a[data-product-id="5"]
+Clicked element: By.cssSelector: div.modal-dialog a[href="/view_cart"]
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:41:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="addProductsInCart_TC12" classname="TestCases.CartPageTest" time="15.08">
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Clicked element: By.cssSelector: a[href="/products"]
+Scrolled to element: By.cssSelector: img[src="/get_product_picture/4"]
+Clicked element: By.cssSelector: div.product-overlay a[data-product-id="1"]
+Clicked element: By.cssSelector: div.modal-dialog button.btn-success
+Clicked element: By.cssSelector: div.product-overlay a[data-product-id="2"]
+Clicked element: By.cssSelector: div.modal-dialog a[href="/view_cart"]
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:41:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="removeProductsFromCart_TC17" classname="TestCases.CartPageTest" time="6.694">
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Scrolled to element: By.cssSelector: img[src="/get_product_picture/4"]
+Clicked element: By.cssSelector: div.product-overlay a[data-product-id="1"]
+Clicked element: By.cssSelector: div.modal-dialog button.btn-success
+Clicked element: By.cssSelector: div.product-overlay a[data-product-id="2"]
+Clicked element: By.cssSelector: div.modal-dialog button.btn-success
+Clicked element: By.cssSelector: ul.nav a[href="/view_cart"]
+Got text from element By.cssSelector: div.breadcrumbs li:nth-of-type(2): Shopping Cart
+Clicked element: By.cssSelector: a.cart_quantity_delete[data-product-id="1"]
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:42:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="searchProductsAndVerifyCartAfterLogin_TC20[Helper.RegisteredUser@3b0ed98a](1)" classname="TestCases.CartPageTest" time="29.265">
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Clicked element: By.cssSelector: a[href="/products"]
+Got text from element By.cssSelector: h2.title: ALL PRODUCTS
+Sent keys to element: By.cssSelector: input#search_product | Value: Blue Top
+Clicked element: By.cssSelector: button#submit_search
+Got text from element By.cssSelector: h2.title: SEARCHED PRODUCTS
+Scrolled to element: By.cssSelector: div.brands-name
+Clicked element: By.cssSelector: div.product-overlay a[data-product-id="1"]
+Clicked element: By.cssSelector: div.modal-dialog button.btn-success
+Clicked element: By.cssSelector: ul.nav a[href="/view_cart"]
+Scrolled to element: By.cssSelector: header div.container
+Clicked element: By.cssSelector: a.check_out
+Clicked element: By.cssSelector: div#checkoutModal a[href="/login"]
+Sent keys to element: By.cssSelector: input[data-qa='login-email'] | Value: ahmed-ahmed@gmail.com
+Sent keys to element: By.cssSelector: input[data-qa='login-password'] | Value: ahmedishere
+Clicked element: By.cssSelector: button[data-qa='login-button']
+Clicked element: By.cssSelector: ul.nav a[href="/view_cart"]
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:42:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="verifyProductQuantityInCart_TC13" classname="TestCases.CartPageTest" time="6.878">
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Scrolled to element: By.cssSelector: div.brands_products h2
+Clicked element: By.cssSelector: a[href="/product_details/1"]
+Clicked element: By.cssSelector: button.cart
+Clicked element: By.cssSelector: div.modal-body a[href="/view_cart"]
+Got text from element By.cssSelector: button.disabled: 4
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:43:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="verifySubscriptionInCartPage_TC11" classname="TestCases.CartPageTest" time="2.086">
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Clicked element: By.cssSelector: ul.nav a[href="/view_cart"]
+Scrolled to element: By.cssSelector: footer#footer div.footer-widget
+Got text from element By.cssSelector: div.single-widget h2: SUBSCRIPTION
+Sent keys to element: By.cssSelector: input#susbscribe_email | Value: reemadel@gmail.com
+Clicked element: By.cssSelector: button#subscribe
+Got text from element By.cssSelector: div.alert-success : You have been successfully subscribed!
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:43:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAddressDetailsInCheckoutPage_TC23[Helper.FullUserData@ba0018e](1)" classname="TestCases.CheckoutPageTest" time="15.832">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.cssSelector: input#id_gender1 (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Reem\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50920}, goog:processID: 7860, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50920/devtoo..., se:cdpVersion: 142.0.7444.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0cd2592105f90eeda762a2c3b700ea6c" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.cssSelector: input#id_gender1 (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Reem\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50920}, goog:processID: 7860, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50920/devtoo..., se:cdpVersion: 142.0.7444.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cd2592105f90eeda762a2c3b700ea6c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at selenuim.SelenuimFramework.waitUntilClickable(SelenuimFramework.java:81)
+	at selenuim.SelenuimFramework.selectRadioButton(SelenuimFramework.java:216)
+	at pages.SignupPage.selectSignupRadioButtonTitleMr(SignupPage.java:126)
+	at TestCases.CheckoutPageTest.verifyAddressDetailsInCheckoutPage_TC23(CheckoutPageTest.java:751)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Browser closed.
+Number of users loaded: 1
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Clicked element: By.cssSelector: a[href="/login"]
+Sent keys to element: By.cssSelector: input[data-qa="signup-name"] | Value: John Doe
+Sent keys to element: By.cssSelector: input[data-qa="signup-email"] | Value: johndoe7513@gmail.com
+Clicked element: By.cssSelector: button[data-qa="signup-button"]
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:43:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="downloadInvoiceAfterPurchaseOrder_TC24[Helper.FullUserData@ba0018e](1)" classname="TestCases.CheckoutPageTest" time="22.245">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.cssSelector: input#id_gender1 (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Reem\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50992}, goog:processID: 27800, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50992/devtoo..., se:cdpVersion: 142.0.7444.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 64dfbdc1a60e88ba87ade8b859222b7a" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.cssSelector: input#id_gender1 (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Reem\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50992}, goog:processID: 27800, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50992/devtoo..., se:cdpVersion: 142.0.7444.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 64dfbdc1a60e88ba87ade8b859222b7a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at selenuim.SelenuimFramework.waitUntilClickable(SelenuimFramework.java:81)
+	at selenuim.SelenuimFramework.selectRadioButton(SelenuimFramework.java:216)
+	at pages.SignupPage.selectSignupRadioButtonTitleMr(SignupPage.java:126)
+	at TestCases.CheckoutPageTest.downloadInvoiceAfterPurchaseOrder_TC24(CheckoutPageTest.java:921)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Scrolled to element: By.cssSelector: img[src="/get_product_picture/4"]
+Clicked element: By.cssSelector: div.product-overlay a[data-product-id="1"]
+Clicked element: By.cssSelector: div.modal-dialog button.btn-success
+Clicked element: By.cssSelector: div.product-overlay a[data-product-id="2"]
+Clicked element: By.cssSelector: div.modal-dialog a[href="/view_cart"]
+Got text from element By.cssSelector: div.breadcrumbs li:nth-of-type(2): Shopping Cart
+Clicked element: By.cssSelector: a.check_out
+Clicked element: By.cssSelector: div#checkoutModal a[href="/login"]
+Sent keys to element: By.cssSelector: input[data-qa="signup-name"] | Value: John Doe
+Sent keys to element: By.cssSelector: input[data-qa="signup-email"] | Value: johndoe7513@gmail.com
+Clicked element: By.cssSelector: button[data-qa="signup-button"]
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:44:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="placeOrderRegisterBeforeCheckout_TC15[Helper.FullUserData@ba0018e](1)" classname="TestCases.CheckoutPageTest" time="17.632">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.cssSelector: input#id_gender1 (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Reem\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58676}, goog:processID: 5964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58676/devtoo..., se:cdpVersion: 142.0.7444.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 603208b9e703d89892037d399be9b7be" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.cssSelector: input#id_gender1 (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Reem\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58676}, goog:processID: 5964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58676/devtoo..., se:cdpVersion: 142.0.7444.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 603208b9e703d89892037d399be9b7be
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at selenuim.SelenuimFramework.waitUntilClickable(SelenuimFramework.java:81)
+	at selenuim.SelenuimFramework.selectRadioButton(SelenuimFramework.java:216)
+	at pages.SignupPage.selectSignupRadioButtonTitleMr(SignupPage.java:126)
+	at TestCases.CheckoutPageTest.placeOrderRegisterBeforeCheckout_TC15(CheckoutPageTest.java:550)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Clicked element: By.cssSelector: a[href="/login"]
+Sent keys to element: By.cssSelector: input[data-qa="signup-name"] | Value: John Doe
+Sent keys to element: By.cssSelector: input[data-qa="signup-email"] | Value: johndoe7513@gmail.com
+Clicked element: By.cssSelector: button[data-qa="signup-button"]
+Implicit wait set to 15 seconds.
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:44:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="placeOrderRegisterWhileCheckout_TC14[Helper.FullUserData@ba0018e](1)" classname="TestCases.CheckoutPageTest" time="26.097">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.cssSelector: input#id_gender1 (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Reem\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58721}, goog:processID: 23640, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58721/devtoo..., se:cdpVersion: 142.0.7444.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 606f1f85f45c20455fda9b1a84b7a73a" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.cssSelector: input#id_gender1 (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Reem\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58721}, goog:processID: 23640, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58721/devtoo..., se:cdpVersion: 142.0.7444.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 606f1f85f45c20455fda9b1a84b7a73a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at selenuim.SelenuimFramework.waitUntilClickable(SelenuimFramework.java:81)
+	at selenuim.SelenuimFramework.selectRadioButton(SelenuimFramework.java:216)
+	at pages.SignupPage.selectSignupRadioButtonTitleMr(SignupPage.java:126)
+	at TestCases.CheckoutPageTest.placeOrderRegisterWhileCheckout_TC14(CheckoutPageTest.java:364)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Scrolled to element: By.cssSelector: img[src="/get_product_picture/4"]
+Clicked element: By.cssSelector: div.product-overlay a[data-product-id="1"]
+Clicked element: By.cssSelector: div.modal-dialog button.btn-success
+Clicked element: By.cssSelector: div.product-overlay a[data-product-id="2"]
+Clicked element: By.cssSelector: div.modal-dialog a[href="/view_cart"]
+Got text from element By.cssSelector: div.breadcrumbs li:nth-of-type(2): Shopping Cart
+Clicked element: By.cssSelector: a[href="/login"]
+Sent keys to element: By.cssSelector: input[data-qa="signup-name"] | Value: John Doe
+Sent keys to element: By.cssSelector: input[data-qa="signup-email"] | Value: johndoe7513@gmail.com
+Clicked element: By.cssSelector: button[data-qa="signup-button"]
+Implicit wait set to 15 seconds.
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:45:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="registerUser[Helper.FullUserData@ba0018e](1)" classname="TestCases.CheckoutPageTest" time="13.785">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.cssSelector: h2.title  b (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.cssSelector: h2.title  b (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at selenuim.SelenuimFramework.findElement(SelenuimFramework.java:71)
+	at selenuim.SelenuimFramework.getText(SelenuimFramework.java:153)
+	at pages.SignupPage.getEnterAccountInformationText(SignupPage.java:113)
+	at TestCases.CheckoutPageTest.registerUser(CheckoutPageTest.java:105)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"h2.title  b"}
+  (Session info: chrome=142.0.7444.177)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46f46cf731369ea7fb7824b17fb241b5, findElement {value=h2.title  b, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Reem\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58801}, goog:processID: 7676, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58801/devtoo..., se:cdpVersion: 142.0.7444.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46f46cf731369ea7fb7824b17fb241b5
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 34 more
+]]></failure>
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Clicked element: By.cssSelector: a[href="/login"]
+Sent keys to element: By.cssSelector: input[data-qa="signup-name"] | Value: John Doe
+Sent keys to element: By.cssSelector: input[data-qa="signup-email"] | Value: johndoe7513@gmail.com
+Clicked element: By.cssSelector: button[data-qa="signup-button"]
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:45:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="placeOrderLoginBeforeCheckout_TC16" classname="TestCases.CheckoutPageTest" time="0.0">
+    <skipped message="Method TestCases.CheckoutPageTest.placeOrderLoginBeforeCheckout_TC16() on instance TestCases.CheckoutPageTest@a7f0ab6 depends on not successfully finished methods &#10;[TestCases.CheckoutPageTest.registerUser() on instance TestCases.CheckoutPageTest@a7f0ab6]"/>
+    <system-out><![CDATA[Browser closed.
+]]></system-out>
+  </testcase>
+  <testcase name="contactUsForm_TC6[Helper.ContactUsForm@4769537a](1)" classname="TestCases.ContactUsFormTest" time="10.767">
+    <system-out><![CDATA[Number of contact us form data loaded: 1
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Clicked element: By.cssSelector: a[href="/contact_us"]
+Got text from element By.cssSelector: div.contact-form h2.title : GET IN TOUCH
+Sent keys to element: By.cssSelector: input[data-qa="name"] | Value: Reem Adel
+Sent keys to element: By.cssSelector: input[data-qa="email"] | Value: reem.adel@gmail.com
+Sent keys to element: By.cssSelector: input[data-qa="subject"] | Value: Issue with my order
+Sent keys to element: By.cssSelector: textarea[data-qa="message"] | Value: Hello, I placed an order last week and haven't received any update. Could you please check and confirm?
+Scrolled to element: By.cssSelector: footer div.footer-bottom
+Clicked element: By.cssSelector: input[data-qa="submit-button"]
+Alert accepted.
+Got text from element By.cssSelector: div.status: Success! Your details have been submitted successfully.
+Clicked element: By.cssSelector: div#form-section a[href="/"]
+Page title: Automation Exercise
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:46:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="scrollWithArrow_TC25" classname="TestCases.HomePageTest" time="1.036">
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Scrolled to element: By.cssSelector: p.pull-left
+Got text from element By.cssSelector: div.single-widget h2: SUBSCRIPTION
+Clicked element: By.cssSelector: a#scrollUp
+Got text from element By.cssSelector: div.col-sm-6 h2: Full-Fledged practice website for Automation Engineers
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:46:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="scrollWithoutArrow_TC26" classname="TestCases.HomePageTest" time="0.716">
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Scrolled to element: By.cssSelector: p.pull-left
+Got text from element By.cssSelector: div.single-widget h2: SUBSCRIPTION
+Scrolled to element: By.cssSelector: ul.nav a[href="/"]
+Got text from element By.cssSelector: div.col-sm-6 h2: Full-Fledged practice website for Automation Engineers
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:46:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="verifySubscriptionInHomePage_TC10" classname="TestCases.HomePageTest" time="0.744">
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Scrolled to element: By.cssSelector: p.pull-left
+Got text from element By.cssSelector: div.single-widget h2: SUBSCRIPTION
+Sent keys to element: By.cssSelector: input#susbscribe_email | Value: reemadel@gmail.com
+Clicked element: By.cssSelector: button#subscribe
+Got text from element By.cssSelector: div.alert-success : You have been successfully subscribed!
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:46:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="viewCategoryProducts_TC18" classname="TestCases.HomePageTest" time="7.981">
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Scrolled to element: By.cssSelector: a[href="/product_details/1"]
+Clicked element: By.cssSelector: a[href="#Women"]
+Clicked element: By.cssSelector: div#Women div.panel-body ul li a[href="/category_products/1"]
+Page title: Automation Exercise - Dress Products
+Got text from element By.cssSelector: div.features_items h2.title : WOMEN - DRESS PRODUCTS
+Clicked element: By.cssSelector: a[href="#Men"]
+Clicked element: By.cssSelector: div#Men div.panel-body ul li a[href="/category_products/3"]
+Page title: Automation Exercise - Tshirts Products
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:46:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="incorrectLogin_TC3[Helper.User@4626f584](1)" classname="TestCases.LoginLogoutTest" time="4.76">
+    <system-out><![CDATA[Browser closed.
+Number of invalid users loaded: 3
+Number of users loaded: 1
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Clicked element: By.cssSelector: a[href="/login"]
+Got text from element By.cssSelector: div.login-form > h2: Login to your account
+Sent keys to element: By.cssSelector: input[data-qa='login-email'] | Value: tomsmitha@gmail.com
+Sent keys to element: By.cssSelector: input[data-qa='login-password'] | Value: SuperSecretPassword!
+Clicked element: By.cssSelector: button[data-qa='login-button']
+Got text from element By.cssSelector: div.login-form form p: Your email or password is incorrect!
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:47:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="incorrectLogin_TC3[Helper.User@256c6f7a](2)" classname="TestCases.LoginLogoutTest" time="3.064">
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Clicked element: By.cssSelector: a[href="/login"]
+Got text from element By.cssSelector: div.login-form > h2: Login to your account
+Sent keys to element: By.cssSelector: input[data-qa='login-email'] | Value: tom@gmail.com
+Sent keys to element: By.cssSelector: input[data-qa='login-password'] | Value: SuperSecretPassword!
+Clicked element: By.cssSelector: button[data-qa='login-button']
+Got text from element By.cssSelector: div.login-form form p: Your email or password is incorrect!
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:47:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="incorrectLogin_TC3[Helper.User@752e4223](3)" classname="TestCases.LoginLogoutTest" time="6.353">
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Clicked element: By.cssSelector: a[href="/login"]
+Got text from element By.cssSelector: div.login-form > h2: Login to your account
+Sent keys to element: By.cssSelector: input[data-qa='login-email'] | Value: admin@gmail.com
+Sent keys to element: By.cssSelector: input[data-qa='login-password'] | Value: SuperSecretPassword!
+Clicked element: By.cssSelector: button[data-qa='login-button']
+Got text from element By.cssSelector: div.login-form form p: Your email or password is incorrect!
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:47:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="registerUser[Helper.FullUserData@5466a819](1)" classname="TestCases.LoginLogoutTest" time="15.967">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.cssSelector: h2.title  b (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.cssSelector: h2.title  b (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at selenuim.SelenuimFramework.findElement(SelenuimFramework.java:71)
+	at selenuim.SelenuimFramework.getText(SelenuimFramework.java:153)
+	at pages.SignupPage.getEnterAccountInformationText(SignupPage.java:113)
+	at TestCases.LoginLogoutTest.registerUser(LoginLogoutTest.java:100)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"h2.title  b"}
+  (Session info: chrome=142.0.7444.177)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ece9cad97eb197a21b5ed1d1c0c7bcb8, findElement {value=h2.title  b, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.177, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Reem\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52238}, goog:processID: 37668, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52238/devtoo..., se:cdpVersion: 142.0.7444.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ece9cad97eb197a21b5ed1d1c0c7bcb8
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 34 more
+]]></failure>
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Clicked element: By.cssSelector: a[href="/login"]
+Sent keys to element: By.cssSelector: input[data-qa="signup-name"] | Value: John Doe
+Sent keys to element: By.cssSelector: input[data-qa="signup-email"] | Value: johndoe7513@gmail.com
+Clicked element: By.cssSelector: button[data-qa="signup-button"]
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:47:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="logout_TC4" classname="TestCases.LoginLogoutTest" time="0.0">
+    <skipped message="Method TestCases.LoginLogoutTest.logout_TC4() on instance TestCases.LoginLogoutTest@3005db4a depends on not successfully finished methods &#10;[TestCases.LoginLogoutTest.registerUser() on instance TestCases.LoginLogoutTest@3005db4a]"/>
+    <system-out><![CDATA[Browser closed.
+]]></system-out>
+  </testcase>
+  <testcase name="correctLogin_TC2[Helper.FullUserData@5466a819](1)" classname="TestCases.LoginLogoutTest" time="13.959">
+    <system-out><![CDATA[Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Clicked element: By.cssSelector: a[href="/login"]
+Got text from element By.cssSelector: div.login-form > h2: Login to your account
+Sent keys to element: By.cssSelector: input[data-qa='login-email'] | Value: johndoe7513@gmail.com
+Sent keys to element: By.cssSelector: input[data-qa='login-password'] | Value: SecurePass123!
+Clicked element: By.cssSelector: button[data-qa='login-button']
+Logged in as 
+Explicit wait finished for: By.xpath: //*[@id="header"]/div/div/div/div[2]/div/ul/li[10]/a
+Logged in as John Doe
+Logged in as John Doe
+Clicked element: By.cssSelector: a[href = "/delete_account"]
+Got text from element By.cssSelector: [data-qa="account-deleted"]: ACCOUNT DELETED!
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:48:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="addReviewOnProduct_TC21[Helper.Reviews@6af02de0](1)" classname="TestCases.ProductPageTest" time="13.147">
+    <system-out><![CDATA[Browser closed.
+Number of reviews loaded: 1
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Clicked element: By.cssSelector: a[href="/products"]
+Got text from element By.cssSelector: h2.title: ALL PRODUCTS
+Scrolled to element: By.cssSelector: a[href="/brand_products/Biba"]
+View Product
+Got text from element By.cssSelector: a[href="#reviews"]: WRITE YOUR REVIEW
+Sent keys to element: By.cssSelector: input#name | Value: Reem
+Sent keys to element: By.cssSelector: input#email | Value: reemadel@gmail.com
+Sent keys to element: By.cssSelector: textarea#review | Value: This product is good.
+Clicked element: By.cssSelector: button#button-review
+Got text from element By.cssSelector: div#review-section div.alert-success: Thank you for your review.
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:48:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="verifyProductsAndProductDetailPage_TC8" classname="TestCases.ProductPageTest" time="10.415">
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Clicked element: By.cssSelector: a[href="/products"]
+Got text from element By.cssSelector: h2.title: ALL PRODUCTS
+Scrolled to element: By.cssSelector: a[href="/brand_products/Biba"]
+View Product
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:49:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="registerUserWithExistingEmail_TC5[Helper.RegisteredUser@6c54d0dc](1)" classname="TestCases.RegisterTest" time="3.342">
+    <system-out><![CDATA[Browser closed.
+Number of users loaded: 1
+Number of registered users loaded: 1
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Clicked element: By.cssSelector: a[href="/login"]
+Got text from element By.cssSelector: div.signup-form h2: New User Signup!
+Sent keys to element: By.cssSelector: input[data-qa="signup-name"] | Value: ahmed
+Sent keys to element: By.cssSelector: input[data-qa="signup-email"] | Value: ahmed-ahmed@gmail.com
+Clicked element: By.cssSelector: button[data-qa="signup-button"]
+Got text from element By.cssSelector: form[action="/signup"]  p: Email Address already exist!
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:49:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="registerUser_TC1[Helper.FullUserData@57e35236](1)" classname="TestCases.RegisterTest" time="21.433">
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Clicked element: By.cssSelector: a[href="/login"]
+Got text from element By.cssSelector: div.signup-form h2: New User Signup!
+Sent keys to element: By.cssSelector: input[data-qa="signup-name"] | Value: John Doe
+Sent keys to element: By.cssSelector: input[data-qa="signup-email"] | Value: johndoe7513@gmail.com
+Clicked element: By.cssSelector: button[data-qa="signup-button"]
+Got text from element By.cssSelector: h2.title  b: ENTER ACCOUNT INFORMATION
+Selected radio button: By.cssSelector: input#id_gender1
+Sent keys to element: By.cssSelector: input#name | Value: John Doe
+Scrolled to element: By.cssSelector: input#address2
+Sent keys to element: By.cssSelector: input#password | Value: SecurePass123!
+Selected dropdown by visible text: 15
+Selected dropdown by visible text: May
+Selected dropdown by visible text: 1990
+Checked checkbox: By.cssSelector: input#newsletter
+Checked checkbox: By.cssSelector: input#optin
+Sent keys to element: By.cssSelector: input#first_name | Value: John
+Sent keys to element: By.cssSelector: input#last_name | Value: Doe
+Scrolled to element: By.cssSelector: button[data-qa="create-account"]
+Sent keys to element: By.cssSelector: input#company | Value: Tech Solutions Ltd.
+Sent keys to element: By.cssSelector: input#address1 | Value: 123 Main Street
+Sent keys to element: By.cssSelector: input#address2 | Value: Apartment 4B
+Selected dropdown by visible text: United States
+Sent keys to element: By.cssSelector: input#state | Value: California
+Sent keys to element: By.cssSelector: input#city | Value: Los Angeles
+Scrolled to element: By.cssSelector: div.col-sm-3.col-sm-offset-1 p
+Sent keys to element: By.cssSelector: input#zipcode | Value: 90001
+Sent keys to element: By.cssSelector: input#mobile_number | Value: +1-555-123-4567
+Clicked element: By.cssSelector: button[data-qa="create-account"]
+Got text from element By.cssSelector: h2.title b: ACCOUNT CREATED!
+Clicked element: By.cssSelector: a[data-qa="continue-button"]
+Explicit wait finished for: By.xpath: //*[@id="header"]/div/div/div/div[2]/div/ul/li[10]/a
+Logged in as John Doe
+Clicked element: By.cssSelector: a[href = "/delete_account"]
+Got text from element By.cssSelector: [data-qa="account-deleted"]: ACCOUNT DELETED!
+Clicked element: By.cssSelector: a[data-qa="continue-button"]
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:49:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+  <testcase name="verifyTestCasesPage_TC7" classname="TestCases.TestCasesPageTest" time="4.098">
+    <system-out><![CDATA[Browser closed.
+Browser initialized and maximized with download dir: D:\D\Edges For Training\Project-1\Downloads
+Navigated to URL: https://automationexercise.com/
+Page title: Automation Exercise
+Clicked element: By.cssSelector: ul.nav a[href="/test_cases"]
+Got text from element By.cssSelector: h2.title: TEST CASES
+]]></system-out>
+    <system-err><![CDATA[Dec 09, 2025 12:50:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+]]></system-err>
+  </testcase>
+</testsuite>
